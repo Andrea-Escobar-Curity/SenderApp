@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">SenderApp</string>
+
+    <!-- Bienvenida -->
+    <string name="welcome_title">SenderApp</string>
+    <string name="welcome_subtitle">Explora rutas, guarda favoritos y vive la aventura</string>
+    <string name="btn_start_login">Iniciar sesión</string>
+    <string name="btn_register">Registrarse</string>
+
+    <!-- Login -->
+    <string name="login_title">Iniciar sesión</string>
+    <string name="hint_user">Usuario o correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="forgot_password">Recuperar contraseña</string>
+    <string name="no_account">¿No tienes cuenta? Regístrate</string>
+
+    <!-- Registro -->
+    <string name="register_title">Crear cuenta</string>
+    <string name="hint_name">Nombre completo</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_confirm_password">Confirmar contraseña</string>
+    <string name="btn_create_account">Registrarse</string>
+
+    <!-- Recuperar contraseña -->
+    <string name="forgot_title">Recuperar contraseña</string>
+    <string name="forgot_description">Ingresa tu correo y te enviaremos un enlace para restablecer tu contraseña.</string>
+    <string name="btn_send_recovery">Enviar enlace</string>
+
+    <!-- Confirmación -->
+    <string name="confirmation_title">¡Cuenta creada!</string>
+    <string name="confirmation_message">Revisa tu correo para confirmar tu cuenta. Luego podrás iniciar sesión.</string>
+    <string name="btn_go_login">Ir a iniciar sesión</string>
+
+    <!-- Dashboard -->
+    <string name="welcome">Hola, %1$s</string>
+    <string name="home_title">Menú principal</string>
+    <string name="menu_explore">Explorar rutas</string>
+    <string name="menu_favorites">Mis favoritos</string>
+    <string name="menu_live_map">Mapa en vivo</string>
+    <string name="menu_profile">Perfil</string>
+    <string name="menu_settings">Configuración</string>
+
+    <!-- Explorar rutas -->
+    <string name="explore_title">Explorar rutas</string>
+    <string name="filter_location">Ubicación</string>
+    <string name="filter_difficulty">Dificultad</string>
+    <string name="filter_distance">Distancia</string>
+    <string name="filter_all">Todas</string>
+    <string name="btn_view_detail">Ver detalle</string>
+
+    <!-- Detalle -->
+    <string name="section_map">Mapa</string>
+    <string name="section_photos">Fotos</string>
+    <string name="section_info">Distancia y duración</string>
+    <string name="section_recommendations">Recomendaciones</string>
+    <string name="btn_add_favorite">Añadir a favoritos</string>
+    <string name="btn_remove_favorite">Quitar de favoritos</string>
+    <string name="btn_start_route">Iniciar ruta</string>
+    <string name="map_placeholder">Vista de mapa</string>
+    <string name="gps_active">GPS: ubicación activa en el mapa</string>
+    <string name="map_api_key_missing">Agrega MAPS_API_KEY en local.properties y habilita Maps SDK</string>
+    <string name="maps_load_hint">Cargando mapa…</string>
+    <string name="maps_auth_hint">Si el mapa está en blanco: en Google Cloud habilita \"Maps SDK for Android\", activa facturación y agrega restricción Android con SHA-1 de debug.</string>
+    <string name="play_services_missing">Google Play Services no está disponible en este dispositivo.</string>
+
+    <!-- Favoritos -->
+    <string name="favorites_title">Mis favoritos</string>
+    <string name="favorites_empty">No tienes rutas guardadas. Explora rutas y añádelas a favoritos.</string>
+
+    <!-- Mapa en vivo -->
+    <string name="live_map_title">Mapa en vivo</string>
+    <string name="gps_status">GPS: ubicación simulada</string>
+    <string name="nearby_routes">Rutas cercanas</string>
+    <string name="basic_directions">Indicaciones: Sigue el sendero marcado en verde</string>
+
+    <!-- Perfil -->
+    <string name="profile_title">Perfil</string>
+    <string name="profile_name">Andrea Escobar Naranjo</string>
+    <string name="profile_email">andrea.escobar@senderapp.com</string>
+    <string name="profile_progress">Rutas completadas: %1$d / %2$d</string>
+    <string name="btn_edit_profile">Editar perfil</string>
+
+    <!-- Configuración -->
+    <string name="settings_title">Configuración</string>
+    <string name="setting_dark_mode">Modo oscuro</string>
+    <string name="setting_high_contrast">Contraste alto</string>
+    <string name="setting_notifications">Notificaciones</string>
+    <string name="setting_gps">Permisos GPS</string>
+    <string name="setting_language">Idioma</string>
+    <string name="setting_logout">Cerrar sesión</string>
+    <string name="language_spanish">Español</string>
+
+    <!-- General -->
+    <string name="logo_desc">Logo SenderApp</string>
+    <string name="route_image_desc">Imagen de la ruta</string>
+    <string name="profile_photo_desc">Foto de perfil</string>
+    <string name="error_login">Completa usuario y contraseña</string>
+    <string name="error_register">Completa todos los campos</string>
+    <string name="error_password_match">Las contraseñas no coinciden</string>
+    <string name="error_email">Ingresa un correo válido</string>
+    <string name="recovery_sent">Enlace de recuperación enviado (simulado)</string>
+    <string name="favorite_added">Añadida a favoritos</string>
+    <string name="favorite_removed">Eliminada de favoritos</string>
+    <string name="route_started">Ruta iniciada: %1$s</string>
+    <string name="edit_profile_toast">Editar perfil (próximamente)</string>
+    <string name="gps_permission_granted">Permiso de ubicación concedido</string>
+    <string name="gps_permission_denied">Permiso de ubicación denegado</string>
+</resources>

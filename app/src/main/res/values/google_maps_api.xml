@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Filled from local.properties MAPS_API_KEY at build time -->
+    <string name="google_maps_key" translatable="false">PLACEHOLDER</string>
+</resources>
